@@ -843,6 +843,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_cheese_slice
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ccb35fa2b132d1244ba3ab0eaac5fc23, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: ccb35fa2b132d1244ba3ab0eaac5fc23, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1028,6 +1036,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 680ff05fc5943894b99816996344a4ab, type: 3}
       propertyPath: m_Name
       value: food_ingredient_potato
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 680ff05fc5943894b99816996344a4ab, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 680ff05fc5943894b99816996344a4ab, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1292,6 +1308,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_tomato
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1af9d2375ebc24d43a3dc055da661500, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 1af9d2375ebc24d43a3dc055da661500, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1353,6 +1377,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dec330d7785dac940904094f6412031b, type: 3}
       propertyPath: m_Name
       value: chair_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dec330d7785dac940904094f6412031b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: dec330d7785dac940904094f6412031b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1575,6 +1607,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 970162b357e5a224d951515e45a1a985, type: 3}
       propertyPath: m_Name
       value: food_ingredient_bun_bottom (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 970162b357e5a224d951515e45a1a985, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 970162b357e5a224d951515e45a1a985, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1883,6 +1923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_bun_top
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1950,6 +1998,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
       propertyPath: m_Name
       value: food_ingredient_bun_top (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2236,6 +2292,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d909df8529f9f544e802f79e292904f7, type: 3}
       propertyPath: m_Name
       value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d909df8529f9f544e802f79e292904f7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: d909df8529f9f544e802f79e292904f7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2737,6 +2801,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
       propertyPath: m_Name
       value: food_ingredient_burger_uncooked (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4228,6 +4300,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_onion
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecff9090576d8f846b1046bd4f0b5379, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: ecff9090576d8f846b1046bd4f0b5379, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4290,9 +4370,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: ketchup
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bd778f6fd4dfc045834ffabf1189747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 9bd778f6fd4dfc045834ffabf1189747, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 9bd778f6fd4dfc045834ffabf1189747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4645,6 +4733,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_lettuce
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75dc24d51c356874786933118ca7aa74, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 75dc24d51c356874786933118ca7aa74, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4753,6 +4849,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
       propertyPath: m_Name
       value: food_ingredient_burger_uncooked
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: d9bec9b6fa7ce4e4d829877faa537079, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5332,6 +5436,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 04d4896d831139b4f892d87fb34bfe11, type: 3}
       propertyPath: m_Name
       value: food_ingredient_carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 04d4896d831139b4f892d87fb34bfe11, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 04d4896d831139b4f892d87fb34bfe11, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6657,6 +6769,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_bun_bottom
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 970162b357e5a224d951515e45a1a985, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 970162b357e5a224d951515e45a1a985, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6867,9 +6987,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: food_ingredient_vegetableburger_uncooked
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fefae74adb09dbe4ab7229ec321edfa7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: fefae74adb09dbe4ab7229ec321edfa7, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: fefae74adb09dbe4ab7229ec321edfa7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
