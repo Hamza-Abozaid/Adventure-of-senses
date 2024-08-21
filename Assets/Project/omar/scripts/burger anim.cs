@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class burgeranim : MonoBehaviour
+public class burgerAnim : MonoBehaviour
 {
     [SerializeField] private Animator myAnimationController;
 
