@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Project/hamza/move burger plate.anim.meta
 guid: eed7185848d9bf140b721857a5b2e379
 NativeFormatImporter:
+=======
+guid: 7ab49f049476e654083f016826070561
+DefaultImporter:
+>>>>>>> Stashed changes:Assets/Project/hamza/Hamza.unity.meta
   externalObjects: {}
   mainObjectFileID: 7400000
   userData: 
