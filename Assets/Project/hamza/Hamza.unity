@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8727,6 +8727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14218c015268ba44aa0d0dc48f4f2a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Spawnpoint: []
+  prefap: {fileID: 0}
+  tomato: {fileID: 0}
 --- !u!65 &1925626111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9512,6 +9515,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: 1d1ce75b13bbd8544b7eb40077b9ef85, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 8183966572487801318, guid: 57709eb05a6043840b20044cbde81b1e, type: 3}
     - target: {fileID: 919132149155446097, guid: 1d1ce75b13bbd8544b7eb40077b9ef85, type: 3}
       propertyPath: m_Name
       value: food_ingredient_tomato
