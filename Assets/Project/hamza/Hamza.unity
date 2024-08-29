@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5359,7 +5359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c49053b03cf0bc14585e12ed3e1ffb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 0}
 --- !u!65 &1035960623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6684,7 +6683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1279501067}
   playerCamera: {fileID: 278074139}
-  pickupRange: 2
+  pickupRange: 10
   pickupKey: 101
   itemHeightOffset: 2
   ignoreLayers:
@@ -7547,7 +7546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b349ddb707dda44ea9a7ef2327fe865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 0}
 --- !u!65 &1557821925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7838,7 +7836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b96b513f5634844b86e8271b3dfdf5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 0}
 --- !u!65 &1640811624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8518,6 +8515,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: PickupItem
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 9ca58e65f3af6de4fafa8afca5792c16, type: 3}
+      propertyPath: m_TagString
+      value: PickupItem
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8726,9 +8727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14218c015268ba44aa0d0dc48f4f2a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawnpoint: []
-  prefap: {fileID: 0}
-  tomato: {fileID: 0}
 --- !u!65 &1925626111
 BoxCollider:
   m_ObjectHideFlags: 0
