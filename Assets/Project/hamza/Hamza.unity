@@ -512,6 +512,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dec330d7785dac940904094f6412031b, type: 3}
   m_PrefabInstance: {fileID: 71360952}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &77811963 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1017701629417590209, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
+  m_PrefabInstance: {fileID: 89201170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &89201170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3762,6 +3767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fridge_A_decorated_door_bottom
       objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3772,6 +3781,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1669855724}
+    - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1669855725}
   m_SourcePrefab: {fileID: 100100000, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
 --- !u!4 &688227576 stripped
 Transform:
@@ -4247,6 +4259,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2036178876323377439, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
   m_PrefabInstance: {fileID: 89201170}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &853649821 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1660180415699807141, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
+  m_PrefabInstance: {fileID: 89201170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &853649828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4259,6 +4276,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3502864f0152f7f4aa9580e07b52108b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 853649821}
+  playerCamera: {fileID: 77811963}
+  pickupRange: 2
+  pickupKey: 101
+  itemHeightOffset: 2
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1001 &871918734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6426,6 +6451,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0000002, y: 1.499998, z: 0.74003303}
   m_Center: {x: 0.000000006482128, y: 0.74999803, z: 0.8700165}
+--- !u!95 &1669855725
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669855720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b199ba80d3f142f479fb3e76d991e297, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1671293259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7072,6 +7118,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d909df8529f9f544e802f79e292904f7, type: 3}
       propertyPath: m_Name
       value: knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d909df8529f9f544e802f79e292904f7, type: 3}
+      propertyPath: m_TagString
+      value: PickupItem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
