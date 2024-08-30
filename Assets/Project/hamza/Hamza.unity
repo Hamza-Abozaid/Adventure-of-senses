@@ -1576,6 +1576,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.008413944
       objectReference: {fileID: 0}
+    - target: {fileID: 5574601778400313969, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5759176542395000759, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.082699426
@@ -2136,7 +2140,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.01934867
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5574601778400313969, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2156,7 +2161,7 @@ GameObject:
   - component: {fileID: 101097293}
   - component: {fileID: 101097292}
   - component: {fileID: 101097291}
-  - component: {fileID: 101097290}
+  - component: {fileID: 101097295}
   m_Layer: 0
   m_Name: animation-oil-code
   m_TagString: Untagged
@@ -2164,19 +2169,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &101097290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101097289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b349ddb707dda44ea9a7ef2327fe865, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 123829985}
 --- !u!65 &101097291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2263,6 +2255,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &101097295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101097289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b349ddb707dda44ea9a7ef2327fe865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimationController: {fileID: 0}
 --- !u!1001 &103344235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2455,6 +2460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 09a45177847579c4583a63305483c322, type: 3}
+      propertyPath: m_TagString
+      value: PickupItem
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 09a45177847579c4583a63305483c322, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2470,6 +2479,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 09a45177847579c4583a63305483c322, type: 3}
       insertIndex: -1
       addedObject: {fileID: 123829985}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 09a45177847579c4583a63305483c322, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 123829987}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 09a45177847579c4583a63305483c322, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 123829986}
   m_SourcePrefab: {fileID: 100100000, guid: 09a45177847579c4583a63305483c322, type: 3}
 --- !u!1 &123829984 stripped
 GameObject:
@@ -2497,6 +2512,54 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &123829986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123829984}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.8840444, z: 0.72971916}
+  m_Center: {x: 3.5721516e-11, y: -0.057977792, z: -0.13514042}
+--- !u!54 &123829987
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123829984}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &125551499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4455,7 +4518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 853649821}
   playerCamera: {fileID: 77811963}
-  pickupRange: 2
+  pickupRange: 6
   pickupKey: 101
   itemHeightOffset: 2
   ignoreLayers:
