@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Project/khadija/Ui scenes/Level 1.unity
+    guid: 340366fd06c3aef43bc4b72ed6ef97f9
+  - enabled: 1
+    path: Assets/Project/khadija/khadija.unity
+    guid: 424c75d416c6f51428ee23733074b29e
+  - enabled: 1
+    path: Assets/Project/khadija/Ui scenes/adventure page.unity
+    guid: 88f654320a16bc44ca7ec9fd813adc63
+  - enabled: 1
+    path: Assets/Project/khadija/Ui scenes/LevelsPage.unity
+    guid: f9d7b07de7789934b95dc1a05b018657
   m_configObjects: {}
