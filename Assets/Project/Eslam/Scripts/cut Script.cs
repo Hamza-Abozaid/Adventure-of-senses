@@ -18,11 +18,11 @@ public class cutScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("knife"))
+        if (other.gameObject.CompareTag("Player"))
         {
             Array();
 
-            Destroy(gameObject);
+            Destroy(tomato.gameObject);
             Debug.Log("succses");
         }
         

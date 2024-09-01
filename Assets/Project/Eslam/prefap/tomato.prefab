@@ -268,12 +268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14218c015268ba44aa0d0dc48f4f2a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawnpoint:
-  - {fileID: 1469374202309756264}
-  - {fileID: 1799587015143787561}
-  - {fileID: 1290203691603690298}
-  prefap: {fileID: 7231012230778588221, guid: bf5364c41d5bb0647af9e53804dc4a8e, type: 3}
-  tomato: {fileID: 3589974673358665663, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+  Spawnpoint: []
+  prefap: {fileID: 0}
+  tomato: {fileID: 0}
 --- !u!4 &4380156786277643752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1af9d2375ebc24d43a3dc055da661500, type: 3}
