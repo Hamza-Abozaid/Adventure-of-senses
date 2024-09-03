@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Project/khadija/khadija.unity
     guid: 424c75d416c6f51428ee23733074b29e
   - enabled: 1
-    path: Assets/Project/khadija/Ui scenes/adventure page.unity
+    path: Assets/Project/Eslam/prefap/Ui scenes/adventure page.unity
     guid: 88f654320a16bc44ca7ec9fd813adc63
   - enabled: 1
-    path: Assets/Project/khadija/Ui scenes/LevelsPage.unity
+    path: Assets/Project/Eslam/prefap/Ui scenes/LevelsPage.unity
     guid: f9d7b07de7789934b95dc1a05b018657
   m_configObjects: {}
