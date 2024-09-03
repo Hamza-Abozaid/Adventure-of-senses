@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bdb0fbadae57f9f40b88e11ab6d4622a
+=======
+guid: 6f722ad5d1d807d4884321da907a9606
+>>>>>>> parent of 839945a (Merge branch 'Eslam-Fares' into Dev)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
