@@ -9,7 +9,7 @@ public class UI : MonoBehaviour
     public void StartGame()
 
     {
-        SceneManager.LoadScene("Khadija");
+        SceneManager.LoadScene("Main");
 
     }
 
