@@ -1,7 +1,18 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
 guid: 1f93af0e9c83f674a9064409f0a407eb
+========
+guid: 81dbcde0f90df4e9ba9ca2794490e57a
+timeCreated: 1491251885
+licenseType: Free
+>>>>>>>> Omar:Assets/Fungus/Integrations/Playmaker/Fungus-PlayMaker.unitypackage.meta
+DefaultImporter:
+=======
+guid: 340366fd06c3aef43bc4b72ed6ef97f9
 DefaultImporter:
   externalObjects: {}
+>>>>>>> Omar
   userData: 
   assetBundleName: 
   assetBundleVariant: 
