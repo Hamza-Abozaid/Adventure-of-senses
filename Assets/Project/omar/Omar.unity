@@ -6062,7 +6062,7 @@ GameObject:
   - component: {fileID: 1926484336}
   - component: {fileID: 1926484335}
   - component: {fileID: 1926484334}
-  - component: {fileID: 1926484333}
+  - component: {fileID: 1926484338}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6070,22 +6070,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1926484333
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926484332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1926484335}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 113
 --- !u!114 &1926484334
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6100,7 +6084,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u064A\u0628\u0644\u0627\u064A\u0628\u062E\u064A\u064A\u064A\u0647\u064A\u0644\u0627"
+  storyText: "\u062D\u0637 \u0627\u0644\u062D\u0645\u0647 \u0639\u0644\u064A \u0627\u0644\u0637\u0627\u0633\u0647
+    \u0644\u0645\u0627 \u0631\u064A\u062D\u0647 \u0627\u0644\u0628\u0631\u062C\u0631
+    \u062A\u0637\u0644\u0639 \u0634\u064A\u0644\u0647\u0627 \u0645\u0646 \u0627\u0644\u0637\u0627\u0633\u0647"
   description: 
   character: {fileID: 907519475}
   portrait: {fileID: 21300000, guid: b9482ea03e69b5a4aa5e7827da354549, type: 3}
@@ -6127,8 +6113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 162.20001
-    y: 78.799995
+    x: 151
+    y: 81.99999
     width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6136,7 +6122,7 @@ MonoBehaviour:
   itemId: 0
   blockName: New Block
   description: 
-  eventHandler: {fileID: 1926484333}
+  eventHandler: {fileID: 1926484338}
   commandList:
   - {fileID: 1926484334}
   suppressAllAutoSelections: 0
@@ -6166,8 +6152,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1926484335}
-  selectedCommands:
-  - {fileID: 1926484334}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6194,6 +6179,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1713090856}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1926484338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926484332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1926484335}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 10
 --- !u!1 &1928629321
 GameObject:
   m_ObjectHideFlags: 1
