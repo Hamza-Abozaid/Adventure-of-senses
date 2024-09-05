@@ -1,6 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 318947201acfa5e499b7b4064330cfd8
 NativeFormatImporter:
+=======
+<<<<<<<< HEAD:Assets/Project/khadija/dream/dream.renderTexture.meta
+guid: 318947201acfa5e499b7b4064330cfd8
+NativeFormatImporter:
+========
+guid: be7e1de6cabed5741928643c4e597735
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> origin/Dev:Assets/Project/khadija/Fungus_v3.13.8.meta
+>>>>>>> Omar
   externalObjects: {}
   mainObjectFileID: 8400000
   userData: 
