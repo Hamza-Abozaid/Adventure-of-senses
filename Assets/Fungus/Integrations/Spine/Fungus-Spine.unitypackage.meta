@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 guid: fd02c799f3f5c4c83b2fc26c105a3821
 DefaultImporter:
@@ -14,6 +15,11 @@ licenseType: Free
 >>>>>>>> Omar:Assets/Fungus/Integrations/Spine/Fungus-Spine.unitypackage.meta
 DefaultImporter:
 >>>>>>> Omar
+=======
+guid: fd02c799f3f5c4c83b2fc26c105a3821
+DefaultImporter:
+  externalObjects: {}
+>>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
