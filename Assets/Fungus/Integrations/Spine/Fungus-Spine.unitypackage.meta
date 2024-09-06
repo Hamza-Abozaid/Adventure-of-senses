@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+guid: fd02c799f3f5c4c83b2fc26c105a3821
+timeCreated: 1453725747
+licenseType: Free
+DefaultImporter:
+<<<<<<< HEAD
+=======
+  externalObjects: {}
+=======
+<<<<<<<< HEAD:Assets/Project/Eslam/prefap/Ui scenes.meta
+guid: 85f19e48248a67f4cad0548d0ae77b7b
+folderAsset: yes
+========
+guid: fd02c799f3f5c4c83b2fc26c105a3821
+timeCreated: 1453725747
+licenseType: Free
+>>>>>>>> Omar:Assets/Fungus/Integrations/Spine/Fungus-Spine.unitypackage.meta
+DefaultImporter:
+>>>>>>> Omar
+=======
+guid: fd02c799f3f5c4c83b2fc26c105a3821
+DefaultImporter:
+  externalObjects: {}
+>>>>>>> Stashed changes
+>>>>>>> origin/khadija-leader
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Project/Eslam/Ainmation.meta
+guid: e400c57ac76fcff49a4b79a045fab8cc
+folderAsset: yes
+========
+guid: 1f93af0e9c83f674a9064409f0a407eb
+>>>>>>>> origin/Dev:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
+=======
+<<<<<<<< HEAD:Assets/ModularFirstPersonController/DemoScene/Demo.unity.meta
+guid: 6e7afa647e3a86e4689a4f9eda87ab35
+========
+guid: 340366fd06c3aef43bc4b72ed6ef97f9
+>>>>>>>> Omar:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
+>>>>>>> Omar
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
