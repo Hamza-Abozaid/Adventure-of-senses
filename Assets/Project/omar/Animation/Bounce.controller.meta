@@ -1,6 +1,7 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Project/khadija/dream/dream.renderTexture.meta
-guid: 318947201acfa5e499b7b4064330cfd8
+guid: b7bcd23a18d232440a99ab5ae75204e4
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 8400000
@@ -10,6 +11,12 @@ NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
 >>>>>>>> Omar:Assets/Project/omar/Animation/Bounce.controller.meta
+=======
+guid: 9b1f19c5bb6b6364a9a35b665760ad0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+>>>>>>> origin/khadija-leader
   userData: 
   assetBundleName: 
   assetBundleVariant: 

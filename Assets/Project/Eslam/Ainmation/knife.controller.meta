@@ -1,6 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Assets/Project/Eslam/Ainmation/knife.controller.meta
+>>>>>>> origin/khadija-leader
 guid: a96b9cc53cd34fe4e9a4876fbfabd720
 NativeFormatImporter:
+========
+guid: 4f72c6dbe4e776f429dd1116a9ade83b
+PrefabImporter:
+>>>>>>>> origin/Dev:Assets/Project/khadija/Prefabs/Village.prefab.meta
   externalObjects: {}
   mainObjectFileID: 9100000
   userData: 

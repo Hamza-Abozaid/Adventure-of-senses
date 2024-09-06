@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Assets/Project/Eslam/Ainmation.meta
+>>>>>>> origin/khadija-leader
 guid: 0ea26c90e1621964a819acfd49652e94
 folderAsset: yes
+========
+guid: 1f93af0e9c83f674a9064409f0a407eb
+>>>>>>>> origin/Dev:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
 guid: 1f93af0e9c83f674a9064409f0a407eb
 ========
@@ -9,10 +10,27 @@ licenseType: Free
 >>>>>>>> Omar:Assets/Fungus/Integrations/Playmaker/Fungus-PlayMaker.unitypackage.meta
 DefaultImporter:
 =======
+=======
+<<<<<<<< HEAD:Assets/Project/Eslam/Ainmation.meta
+guid: 945f15811a618cb4d9bd75ac1cc29337
+folderAsset: yes
+========
+guid: 1f93af0e9c83f674a9064409f0a407eb
+>>>>>>>> origin/Dev:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
+=======
+<<<<<<<< HEAD:Assets/ModularFirstPersonController/DemoScene/Demo.unity.meta
+guid: 6e7afa647e3a86e4689a4f9eda87ab35
+========
+>>>>>>> origin/khadija-leader
 guid: 340366fd06c3aef43bc4b72ed6ef97f9
+>>>>>>>> Omar:Assets/Project/khadija/Ui scenes/Level 1.unity.meta
+>>>>>>> Omar
 DefaultImporter:
   externalObjects: {}
+<<<<<<< HEAD
 >>>>>>> Omar
+=======
+>>>>>>> origin/khadija-leader
   userData: 
   assetBundleName: 
   assetBundleVariant: 
