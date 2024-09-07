@@ -1,57 +1,48 @@
-﻿using Fungus;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class cutScript : MonoBehaviour
 {
     public Transform[] Spawnpoint;
     [SerializeField] GameObject prefap;
     [SerializeField] GameObject tomato;
-    public PointManager pointManager;
-    [SerializeField] Flowchart flowchart;
-    [SerializeField] string blockname;
-  
 
-     void Update()
+    // Start is called before the first frame update
+    void Start()
     {
-        ///if (pointManager.Score==0 &&plus==1 )
-///{
-     //     ///////  pointManager.UpdateScore(1);
-///Debug.Log(pointManager.Score);
-       ///////// }
+
     }
 
-    private void OnCollisionEnter(UnityEngine.Collision collision)
+    // Update is called once per frame
+    void Update()
     {
-        if (collision.gameObject.name == "knife")
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
             Array();
 
+            Destroy(tomato.gameObject);
+            Debug.Log("succses");
+        }
+        
 
+
+
+
+
+
+
+
+        void Array()
+        {
+
+            if (Spawnpoint.Length >= 0)
+
+                for (int i = 0; i < Spawnpoint.Length; i++)
+                {
+                    Instantiate(prefap, Spawnpoint[i].position, Quaternion.identity);
+                }
         }
     }
-
-
-
-
-
-
-
-
-    void Array()
-    {
-
-        if (Spawnpoint.Length >= 0)
-
-            for (int i = 0; i < Spawnpoint.Length; i++)
-            {
-                Instantiate(prefap, Spawnpoint[i].position, Quaternion.identity);
-                flowchart.ExecuteBlock(blockname);
-            }
-    }
 }
-
-
-
