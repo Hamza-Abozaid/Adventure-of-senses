@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3014,13 +3014,17 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1652781969}
+    - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652781976}
   m_SourcePrefab: {fileID: 100100000, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
 --- !u!1 &846905589 stripped
 GameObject:
@@ -3806,7 +3810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1356488685}
+  selectedFlowchart: {fileID: 1391177892}
 --- !u!4 &1044715749
 Transform:
   m_ObjectHideFlags: 1
@@ -4209,6 +4213,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dec330d7785dac940904094f6412031b, type: 3}
   m_PrefabInstance: {fileID: 1234722222}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1238168524 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4459864850888339820, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 834009303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1239460729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9bd778f6fd4dfc045834ffabf1189747, type: 3}
@@ -4467,6 +4482,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd778f6fd4dfc045834ffabf1189747, type: 3}
+--- !u!114 &1349086554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4459864851397454648, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 834009303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1356488682
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,11 +4527,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u0628\u0631\u0627\u0641\u0648 \u0639\u0644\u064A\u0643! \u0631\u0643\u0628\u062A
-    \u0627\u0644\u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0628\u0634\u0643\u0644
-    \u0645\u0645\u062A\u0627\u0632 \u0628\u0641\u0636\u0644 \u062D\u0627\u0633\u0629
-    \u0627\u0644\u0646\u0638\u0631\u060C \u0632\u064A \u0645\u0627 \u062A\u0643\u0648\u0646
-    \u0641\u0646\u0627\u0646"
+  storyText: "\u0646\uFE8E\uFEE8\uFED3 \u0646\uFEEE\uFEDC\uFE97 \uFE8E\uFEE3 \u064A\u0632
+    \u060C\uFEAE\uFEC8\uFEE8\uFEDF\u0627 \uFE94\uFEB3\uFE8E\uFEA3 \uFEDE\uFEC0\uFED4\uFE91
+    \u0632\uFE8E\uFE98\uFEE4\uFEE3 \uFEDE\uFEDC\uFEB8\uFE91 \uFEB6\uFE98\uFEF3\u0648\uFEAA\uFEE7\uFE8E\uFEB4\uFEDF\u0627
+    \uFE96\uFE92\uFEDB\u0631 !\uFEDA\uFEF4\uFEE0\uFECB \uFEEE\uFED3\u0627\uFEAE\uFE91"
   description: 
   character: {fileID: 1621034923}
   portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
@@ -4572,7 +4597,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1356488684}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1356488687}
   variables: []
   description: 
   stepPause: 0
@@ -4613,10 +4639,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "\"\u062F\u0644\u0648\u0642\u062A\u064A \u062C\u0631\u0628 \u0627\u0644\u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634
-    \u0648\u062A\u0623\u0643\u062F \u0645\u0646 \u0637\u0639\u0645\u0647. \u0644\u0648
-    \u0627\u0644\u0637\u0639\u0645 \u0637\u0627\u0632\u062C\u060C \u064A\u0628\u0642\u0649
-    \u0643\u062F\u0647 \u0639\u0645\u0644\u062A \u0634\u063A\u0644 \u0645\u0645\u062A\u0627\u0632"
+  storyText: "\u0632\uFE8E\uFE98\uFEE4\uFEE3 \uFEDE\uFED0\uFEB7 \uFE96\uFEE0\uFEE4\uFECB
+    \u0647\uFEAA\uFEDB \uFBFD\uFED8\uFE92\uFEF3 \u060C\u062C\u0632\uFE8E\uFEC3 \uFEE2\uFECC\uFEC4\uFEDF\u0627
+    \uFEEE\uFEDF .\uFEEA\uFEE4\uFECC\uFEC3 \uFEE6\uFEE3 \uFEAA\uFEDB\uFE84\uFE97\u0648
+    \uFEB6\uFE98\uFEF3\u0648\uFEAA\uFEE7\uFE8E\uFEB4\uFEDF\u0627 \u0628\uFEAE\uFE9F
+    \uFEF2\uFE98\uFED7\uFEEE\uFEDF\u062F"
   description: 
   character: {fileID: 1621034923}
   portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
@@ -4675,7 +4702,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1391177894}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1391177896}
   variables: []
   description: 
   stepPause: 0
@@ -4701,10 +4729,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "\u0645\u0645\u062A\u0627\u0632! \u0642\u0637\u0639\u062A \u0627\u0644\u062E\u0636\u0627\u0631
-    \u0628\u062F\u0642\u0629 \u0644\u0623\u0646\u0643 \u0627\u0639\u062A\u0645\u062F\u062A
-    \u0639\u0644\u0649 \u062D\u0627\u0633\u0629 \u0627\u0644\u0644\u0645\u0633\u060C
-    \u0632\u064A \u0645\u0627 \u062A\u0643\u0648\u0646 \u0646\u062D\u0627\u062A \u0645\u0627\u0647\u0631"
+  storyText: "\uFEAE\uFEEB\uFE8E\uFEE3 \u062A\uFE8E\uFEA4\uFEE7 \u0646\uFEEE\uFEDC\uFE97
+    \uFE8E\uFEE3 \u064A\u0632 \u060C\uFEB2\uFEE4\uFEE0\uFEDF\u0627 \uFE94\uFEB3\uFE8E\uFEA3
+    \uFBFD\uFEE0\uFECB \u062A\uFEAA\uFEE4\uFE98\uFECB\u0627 \uFEDA\uFEE7\uFEF7 \uFE94\uFED7\uFEAA\uFE91
+    \u0631\uFE8E\uFEC0\uFEA8\uFEDF\u0627 \uFE96\uFECC\uFEC4\uFED7 !\u0632\uFE8E\uFE98\uFEE4\uFEE3"
   description: 
   character: {fileID: 1621034923}
   portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
@@ -4774,12 +4802,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "\u062D\u0637 \u0627\u0644\u0644\u062D\u0645 \u0639\u0644\u0649 \u0627\u0644\u0646\u0627\u0631\u060C
-    \u0648\u0627\u0646\u062A\u0638\u0631 \u0631\u064A\u062D\u0629 \u0627\u0644\u0628\u0631\u062C\u0631
-    \u0627\u0644\u0634\u0647\u064A\u0629 \u062A\u0637\u0644\u0639. \u0644\u0645\u0627
-    \u062A\u0628\u062F\u0623 \u062A\u0634\u0645 \u0627\u0644\u0631\u064A\u062D\u0629
-    \u0627\u0644\u062D\u0644\u0648\u0629\u060C \u064A\u0628\u0642\u0649 \u0648\u0642\u062A\u0647\u0627
-    \u0642\u0644\u0628\u0647\u0627 "
+  storyText: " \uFE8E\uFEEC\uFE92\uFEE0\uFED7 \uFE8E\uFEEC\uFE98\uFED7\u0648 \uFBFD\uFED8\uFE92\uFEF3
+    \u060C\u0629\uFEEE\uFEE0\uFEA4\uFEDF\u0627 \uFE94\uFEA4\uFEF3\uFEAE\uFEDF\u0627
+    \uFEE2\uFEB8\uFE97 \u0623\uFEAA\uFE92\uFE97 \uFE8E\uFEE4\uFEDF .\uFECA\uFEE0\uFEC4\uFE97
+    \uFE94\uFEF4\uFEEC\uFEB8\uFEDF\u0627 \uFEAE\uFE9F\uFEAE\uFE92\uFEDF\u0627 \uFE94\uFEA4\uFEF3\u0631
+    \uFEAE\uFEC8\uFE98\uFEE7\u0627\u0648 \u060C\u0631\uFE8E\uFEE8\uFEDF\u0627 \uFBFD\uFEE0\uFECB
+    \uFEE2\uFEA4\uFEE0\uFEDF\u0627 \uFEC2\uFEA3"
   description: 
   character: {fileID: 1621034923}
   portrait: {fileID: 0}
@@ -4858,6 +4886,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 105d80ec9680aa745968c80ed8113f38, type: 3}
+--- !u!4 &1451760423 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4459864851508666808, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 834009303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1474895349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2dff17a4f74ff6b45b95b79517795c99, type: 3}
@@ -5689,6 +5722,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_PrefabInstance: {fileID: 834009303}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1652781976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652781968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abef9babaf26344285c56217ce9eb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 277491963}
+  fov: 60
+  invertCamera: 0
+  cameraCanMove: 1
+  mouseSensitivity: 2
+  maxLookAngle: 50
+  lockCursor: 1
+  crosshair: 1
+  crosshairImage: {fileID: 0}
+  crosshairColor: {r: 1, g: 1, b: 1, a: 1}
+  enableZoom: 1
+  holdToZoom: 0
+  zoomKey: 324
+  zoomFOV: 30
+  zoomStepTime: 5
+  playerCanMove: 1
+  walkSpeed: 5
+  maxVelocityChange: 10
+  enableSprint: 1
+  unlimitedSprint: 0
+  sprintKey: 304
+  sprintSpeed: 7
+  sprintDuration: 5
+  sprintCooldown: 0.5
+  sprintFOV: 80
+  sprintFOVStepTime: 10
+  useSprintBar: 1
+  hideBarWhenFull: 1
+  sprintBarBG: {fileID: 1349086554}
+  sprintBar: {fileID: 1238168524}
+  sprintBarWidthPercent: 0.3
+  sprintBarHeightPercent: 0.015
+  enableJump: 1
+  jumpKey: 32
+  jumpPower: 5
+  enableCrouch: 1
+  holdToCrouch: 1
+  crouchKey: 306
+  crouchHeight: 0.75
+  speedReduction: 0.5
+  enableHeadBob: 1
+  joint: {fileID: 1451760423}
+  bobSpeed: 10
+  bobAmount: {x: 0.15, y: 0.05, z: 0}
 --- !u!1 &1670133741
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,6 +6417,10 @@ PrefabInstance:
     - target: {fileID: 4054759998972216752, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
       propertyPath: m_Name
       value: 'cheese '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054759998972216752, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+      propertyPath: m_TagString
+      value: PickupItem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7171,6 +7264,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1548411121}
     - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.27
       objectReference: {fileID: 0}
@@ -7209,6 +7314,10 @@ PrefabInstance:
     - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8855712006736731945, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_Name
