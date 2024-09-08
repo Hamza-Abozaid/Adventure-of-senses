@@ -15,19 +15,17 @@ public class cutScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
     }
-
-
-
-    private void OnCollisionEnter(UnityEngine.Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.name == "knife")
+        if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
             Array();
+
+            Destroy(tomato.gameObject);
+            Debug.Log("succses");
         }
-    }
+        
 
 
 
@@ -36,7 +34,7 @@ public class cutScript : MonoBehaviour
 
 
 
-    void Array()
+        void Array()
         {
 
             if (Spawnpoint.Length >= 0)
@@ -46,5 +44,5 @@ public class cutScript : MonoBehaviour
                     Instantiate(prefap, Spawnpoint[i].position, Quaternion.identity);
                 }
         }
+    }
 }
-
