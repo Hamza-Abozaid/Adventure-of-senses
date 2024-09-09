@@ -1,4 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: fd02c799f3f5c4c83b2fc26c105a3821
+DefaultImporter:
+  externalObjects: {}
+=======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 guid: fd02c799f3f5c4c83b2fc26c105a3821
@@ -25,6 +30,7 @@ DefaultImporter:
   externalObjects: {}
 >>>>>>> Stashed changes
 >>>>>>> origin/khadija-leader
+>>>>>>> 6bdf7cb806e8c13cd15d381d719e237aeb8184fe
   userData: 
   assetBundleName: 
   assetBundleVariant: 
