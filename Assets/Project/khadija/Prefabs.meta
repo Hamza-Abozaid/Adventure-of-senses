@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<<< HEAD:Assets/Project/Eslam/Ainmation/cutting Animation.anim.meta
 guid: 2124017aef4299d4796b477eccaede24
@@ -10,6 +11,11 @@ guid: c94d99a8ffa87bb4299e176d9ec7a5e8
 folderAsset: yes
 DefaultImporter:
 >>>>>>>> origin/Dev:Assets/Project/khadija/Prefabs.meta
+=======
+guid: c94d99a8ffa87bb4299e176d9ec7a5e8
+folderAsset: yes
+DefaultImporter:
+>>>>>>> origin/Dev
   externalObjects: {}
   mainObjectFileID: 7400000
   userData: 

@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - CinemachineTarget
+  - knife
+  - PickupItem
+  - SleepingPlayer
+  - FoodItem
+>>>>>>> origin/Dev
   layers:
   - Default
   - TransparentFX
@@ -11,9 +20,15 @@ TagManager:
   - 
   - Water
   - UI
+<<<<<<< HEAD
   - 
   - 
   - 
+=======
+  - Player
+  - Burger_layer
+  - 
+>>>>>>> origin/Dev
   - 
   - 
   - 

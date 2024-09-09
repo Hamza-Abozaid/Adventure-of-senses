@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Project/Eslam/Scripts/Animation of knife.cs.meta
 <<<<<<< HEAD:Assets/Project/hamza/FirstPersonController.cs.meta
 <<<<<<<< HEAD:Assets/Project/hamza/FirstPersonController.cs.meta
 guid: 3f9a2d6fd9057b64c9fc46ad92f132b5
@@ -9,6 +10,9 @@ guid: 9ea154a8511ac8c4c9a3f6b38e4c52db
 ========
 guid: 5aea64f0ce616db409a7aba7f07ceccf
 >>>>>>>> Omar:Assets/FirstPersonController.cs.meta
+=======
+guid: b7d2dcc4a056dbd45abf0b573e0318fd
+>>>>>>> origin/Dev:Assets/Project/hamza/Scripts/ItemType.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
