@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &62825477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8171983240761662111, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+  m_PrefabInstance: {fileID: 4028099680669921762}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &93900868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1230,6 +1235,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7447e6055fec8f24bbedd9085ee33787, type: 3}
   m_PrefabInstance: {fileID: 310471872}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &357358223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6141355446962472476, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+  m_PrefabInstance: {fileID: 1923096453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &392680580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1934,6 +1944,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1500025373}
   m_SourcePrefab: {fileID: 100100000, guid: 3407b7740646d494aaebf74ef5bb32fc, type: 3}
+--- !u!4 &537473314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1174332941195298530, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+  m_PrefabInstance: {fileID: 5020874770694660304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &538987865 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 3407b7740646d494aaebf74ef5bb32fc, type: 3}
@@ -5212,7 +5227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
-  Scoretext: {fileID: 0}
 --- !u!4 &1548411122
 Transform:
   m_ObjectHideFlags: 0
@@ -5713,6 +5727,7 @@ MonoBehaviour:
   playerCamera: {fileID: 277491963}
   pickupRange: 10.66
   pickupKey: 101
+  eatKey: 102
   itemHeightOffset: 1
   ignoreLayers:
     serializedVersion: 2
@@ -6370,6 +6385,10 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 1391177892}
+    - target: {fileID: 2138696168199196945, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 357358223}
     - target: {fileID: 2138696168199196945, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
       propertyPath: pointManager
       value: 
@@ -7150,6 +7169,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1391177892}
     - target: {fileID: 4801027793917864520, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 1264956627}
+    - target: {fileID: 4801027793917864520, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 1548411121}
@@ -7231,6 +7254,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1391177892}
     - target: {fileID: 4862660596947620012, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 62825477}
+    - target: {fileID: 4862660596947620012, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 1548411121}
@@ -7259,6 +7286,10 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 1391177892}
+    - target: {fileID: 3021465866807324494, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 537473314}
     - target: {fileID: 3021465866807324494, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: pointManager
       value: 
