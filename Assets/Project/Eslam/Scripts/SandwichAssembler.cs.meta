@@ -3,7 +3,18 @@ guid: 4db5ba03df333014997edf8354e9d54c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Botton_bread: {instanceID: 0}
+  - top_bread: {instanceID: 0}
+  - tomato: {instanceID: 0}
+  - chease: {instanceID: 0}
+  - lectt: {instanceID: 0}
+  - onion: {instanceID: 0}
+  - Sandwicburger: {instanceID: 0}
+  - trans: {instanceID: 0}
+  - flowchart: {instanceID: 0}
+  - pointManager: {instanceID: 0}
+  - player: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
