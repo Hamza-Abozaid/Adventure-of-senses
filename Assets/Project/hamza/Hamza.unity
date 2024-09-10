@@ -11498,6 +11498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sleepy
       objectReference: {fileID: 0}
+    - target: {fileID: 4922376694478042191, guid: 2191dc82b1cb0c74c837d8f13f0c3104, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8473784632638057771, guid: 2191dc82b1cb0c74c837d8f13f0c3104, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.908144
