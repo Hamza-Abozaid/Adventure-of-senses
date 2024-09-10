@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/FastMesh/Materials/Floor 1.mat.meta
 guid: 5a399a37821645240901d0b2234ce276
+=======
+guid: d298ab3b222482b4a8b31e39d7a41170
+>>>>>>> Stashed changes:Assets/Project/omar/Animation/Oil.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
