@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aea64f0ce616db409a7aba7f07ceccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 2799437693830454537}
   fov: 60
   invertCamera: 0
   cameraCanMove: 1
@@ -683,8 +683,8 @@ MonoBehaviour:
   sprintFOVStepTime: 10
   useSprintBar: 1
   hideBarWhenFull: 1
-  sprintBarBG: {fileID: 0}
-  sprintBar: {fileID: 0}
+  sprintBarBG: {fileID: 5714538637262623113}
+  sprintBar: {fileID: 5346942068742451881}
   sprintBarWidthPercent: 0.3
   sprintBarHeightPercent: 0.015
   enableJump: 1
@@ -696,6 +696,6 @@ MonoBehaviour:
   crouchHeight: 0.75
   speedReduction: 0.5
   enableHeadBob: 1
-  joint: {fileID: 0}
+  joint: {fileID: 5699645503249339940}
   bobSpeed: 10
   bobAmount: {x: 0.15, y: 0.05, z: 0}
