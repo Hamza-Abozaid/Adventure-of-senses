@@ -187,8 +187,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spawnpoint:
   - {fileID: 6701228489151540588}
-  prefap: {fileID: 7231012230778588221, guid: bf5364c41d5bb0647af9e53804dc4a8e, type: 3}
+  prefap: {fileID: 0}
   tomato: {fileID: 2383001857105011496}
+  pointManager: {fileID: 0}
+  flowchart: {fileID: 0}
+  blockname: intro
 --- !u!54 &3783023670473184718
 Rigidbody:
   m_ObjectHideFlags: 0
