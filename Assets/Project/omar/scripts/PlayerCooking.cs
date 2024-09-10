@@ -7,6 +7,7 @@ public class PlayerCooking : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.name == "Burger") {
             myAnimatorController.SetBool("Test", true);
+
         }
     }
    
