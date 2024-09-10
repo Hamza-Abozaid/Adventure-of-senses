@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupAndDrop : MonoBehaviour
-{
+public class PickupAndDrop : MonoBehaviour {
     public Transform player; // Reference to the player or the object that will hold the item
     public Camera playerCamera; // Reference to the player's camera
     public float pickupRange = 2f; // Range within which the player can pick up items
     public KeyCode pickupKey = KeyCode.E; // Key to press for picking up items
+    public KeyCode eatKey = KeyCode.F; // Key to press for eating the item
     public float itemHeightOffset = 1.0f; // How much to raise the item when picked up
     private GameObject currentItem = null; // The currently held item
     public LayerMask ignoreLayers; // Layers to ignore in the raycast
@@ -22,9 +22,11 @@ public class PickupAndDrop : MonoBehaviour
                 // Otherwise, try to pick up an item
                 TryPickupItem();
             }
-        } else {
-            // Check if the player is looking at a pickup item
-            CheckForPickupItem();
+        }
+
+        // Check if the player is pressing the eat key
+        if (Input.GetKeyDown(eatKey)) {
+            EatItem();
         }
     }
 
@@ -60,18 +62,21 @@ public class PickupAndDrop : MonoBehaviour
         }
     }
 
-    void CheckForPickupItem() {
-        // Raycast from the camera's position and direction, ignoring specified layers
-        RaycastHit hit;
-        if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, pickupRange, ~ignoreLayers)) {
-            Debug.Log("Checking for pickup item, hit: " + hit.collider.name);
+    void EatItem() {
+        if (currentItem != null) {
+            // Check if the item is food by accessing the ItemType component
+            ItemType itemType = currentItem.GetComponent<ItemType>();
+            if (itemType != null && itemType.isFood) {
+                Debug.Log("Eating item: " + currentItem.name);
 
-            if (hit.collider != null && hit.collider.CompareTag("PickupItem")) {
-                // Log a message if the player is looking at a pickup item
-                Debug.Log("Looking at a pickup item: " + hit.collider.name);
+                // Implement the logic for eating the item here
+                // For example: Destroy the item or play an animation
+
+                Destroy(currentItem); // Example action
+                currentItem = null; // Clear the current item
+            } else {
+                Debug.Log("No item to eat or item is not food.");
             }
-        } else {
-            Debug.Log("Looking but no item detected within range.");
         }
     }
 }
