@@ -5,7 +5,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class cutScript : MonoBehaviour
 {
-    public Transform[] Spawnpoint;
+    public Transform Spawnpoint;
     [SerializeField] GameObject prefap;
     [SerializeField] GameObject tomato;
     public PointManager pointManager;
@@ -15,42 +15,30 @@ public class cutScript : MonoBehaviour
 
      void Update()
     {
-        ///if (pointManager.Score==0 &&plus==1 )
-///{
-     //     ///////  pointManager.UpdateScore(1);
-///Debug.Log(pointManager.Score);
-       ///////// }
+     Debug.Log(pointManager.Score);
     }
 
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {
         if (collision.gameObject.name == "knife")
-        {
+        { 
+            pointManager.UpdateScore(1);
             Destroy(gameObject);
-            Array();
-
-
+            Instantiate(prefap, Spawnpoint.position, Quaternion.identity);
         }
-    }
-
-
-
-
-
-
-
-
-    void Array()
-    {
-
-        if (Spawnpoint.Length >= 0)
-
-            for (int i = 0; i < Spawnpoint.Length; i++)
+        if (pointManager.Score == 4)
             {
-                Instantiate(prefap, Spawnpoint[i].position, Quaternion.identity);
-                flowchart.ExecuteBlock(blockname);
+            flowchart.ExecuteBlock(blockname);
             }
     }
+
+
+
+
+
+
+
+
 }
 
 
