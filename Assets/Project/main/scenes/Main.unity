@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -558,11 +558,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ceffa7ce69585f94baa725d75470e75d, type: 3}
   m_PrefabInstance: {fileID: 100462576}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &111790731 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1017701629417590209, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
-  m_PrefabInstance: {fileID: 1888517005}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &116452396
 PrefabInstance:
@@ -4955,106 +4950,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1905097513459178398, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
+    - {fileID: 7353724747163526738, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
+    - {fileID: 2985611219867191388, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9020230170274206369, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1156895761}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
 --- !u!1 &1156895756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9020230170274206369, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
   m_PrefabInstance: {fileID: 1156895755}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1156895757 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5699645503249339940, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
-  m_PrefabInstance: {fileID: 1156895755}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1156895758 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5346942068742451881, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
-  m_PrefabInstance: {fileID: 1156895755}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1156895759 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5714538637262623113, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
-  m_PrefabInstance: {fileID: 1156895755}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!20 &1156895760 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2799437693830454537, guid: c6dbd59260c9a664bbfeb3eb4c9698f8, type: 3}
-  m_PrefabInstance: {fileID: 1156895755}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1156895761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156895756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5688a2ce1bdb21446aa49dabb90d1b8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCamera: {fileID: 1156895760}
-  fov: 60
-  invertCamera: 0
-  cameraCanMove: 1
-  mouseSensitivity: 2
-  maxLookAngle: 50
-  lockCursor: 1
-  crosshair: 1
-  crosshairImage: {fileID: 0}
-  crosshairColor: {r: 1, g: 1, b: 1, a: 1}
-  enableZoom: 1
-  holdToZoom: 0
-  zoomKey: 324
-  zoomFOV: 30
-  zoomStepTime: 5
-  playerCanMove: 1
-  walkSpeed: 5
-  maxVelocityChange: 10
-  enableSprint: 1
-  unlimitedSprint: 0
-  sprintKey: 304
-  sprintSpeed: 7
-  sprintDuration: 5
-  sprintCooldown: 0.5
-  sprintFOV: 80
-  sprintFOVStepTime: 10
-  useSprintBar: 1
-  hideBarWhenFull: 1
-  sprintBarBG: {fileID: 1156895759}
-  sprintBar: {fileID: 1156895758}
-  sprintBarWidthPercent: 0.3
-  sprintBarHeightPercent: 0.015
-  enableJump: 1
-  jumpKey: 32
-  jumpPower: 5
-  enableCrouch: 1
-  holdToCrouch: 1
-  crouchKey: 306
-  crouchHeight: 0.75
-  speedReduction: 0.5
-  enableHeadBob: 1
-  joint: {fileID: 1156895757}
-  bobSpeed: 10
-  bobAmount: {x: 0.15, y: 0.05, z: 0}
 --- !u!1 &1157421714
 GameObject:
   m_ObjectHideFlags: 0
@@ -9319,7 +9225,7 @@ PrefabInstance:
     - target: {fileID: 5574601778400313969, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
       propertyPath: playerCamera
       value: 
-      objectReference: {fileID: 111790731}
+      objectReference: {fileID: 0}
     - target: {fileID: 5574601778400313969, guid: 100019a79ce52ff499ef353110c25a5e, type: 3}
       propertyPath: ignoreLayers.m_Bits
       value: 64
