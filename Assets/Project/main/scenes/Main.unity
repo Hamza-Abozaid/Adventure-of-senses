@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -924,7 +924,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
-  Scoretext: {fileID: 0}
 --- !u!4 &156242879
 Transform:
   m_ObjectHideFlags: 0
@@ -1489,6 +1488,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 261522974}
     - target: {fileID: 3021465866807324494, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 248272643}
+    - target: {fileID: 3021465866807324494, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 156242878}
@@ -1557,6 +1560,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+--- !u!4 &248272643 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1174332941195298530, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+  m_PrefabInstance: {fileID: 248272642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &255712245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
@@ -2973,6 +2981,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 261522974}
     - target: {fileID: 2138696168199196945, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 450697359}
+    - target: {fileID: 2138696168199196945, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 156242878}
@@ -3029,6 +3041,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+--- !u!4 &450697359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6141355446962472476, guid: 33f162be7632fc84c9b6931ca34aedaf, type: 3}
+  m_PrefabInstance: {fileID: 450697358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &457330508 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 175382364505879623, guid: 33fb3539e3441f94799c57bc3e6fb426, type: 3}
@@ -4873,6 +4890,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 261522974}
     - target: {fileID: 4862660596947620012, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 821762931}
+    - target: {fileID: 4862660596947620012, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 156242878}
@@ -4881,6 +4902,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+--- !u!4 &821762931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8171983240761662111, guid: c714cc7dbdccb3a43a9725446ab0a458, type: 3}
+  m_PrefabInstance: {fileID: 821762930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &846229453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11357,7 +11383,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d2d98e3605536449254739b7ba45f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PointManager: {fileID: 156242878}
   myAnimatorController: {fileID: 64028683}
+  flowchart: {fileID: 0}
+  blockname: 
 --- !u!65 &1881591898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13278,6 +13307,10 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 261522974}
+    - target: {fileID: 4801027793917864520, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
+      propertyPath: Spawnpoint
+      value: 
+      objectReference: {fileID: 185060497}
     - target: {fileID: 4801027793917864520, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
       propertyPath: pointManager
       value: 
