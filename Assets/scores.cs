@@ -1,0 +1,21 @@
+using TMPro;
+using UnityEngine;
+using TMPro;
+public class score : MonoBehaviour
+{
+    public int playerScore = 0;  // «·”ﬂÊ— «·Õ«·Ì ··ÿ«·»
+    [SerializeField] TextMeshProUGUI ScoreTxt;
+
+    // Method · “ÊÌœ «·”ﬂÊ— »„ﬁœ«— 5
+    public void AddScore()
+    {
+        playerScore += 5;
+        UpdateScoreUI();  //  ÕœÌÀ «·‹ UI »⁄œ  €ÌÌ— «·”ﬂÊ—
+    }
+
+    // Method · ÕœÌÀ «·‹ UI «·Œ«’ »«·”ﬂÊ—
+    void UpdateScoreUI()
+    {
+        ScoreTxt.text = "Score: " + playerScore;
+    }
+}
