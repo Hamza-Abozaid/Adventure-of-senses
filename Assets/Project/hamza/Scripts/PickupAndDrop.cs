@@ -1,3 +1,4 @@
+using Fungus;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,8 @@ public class PickupAndDrop : MonoBehaviour {
     public float itemHeightOffset = 1.0f; // How much to raise the item when picked up
     private GameObject currentItem = null; // The currently held item
     public LayerMask ignoreLayers; // Layers to ignore in the raycast
-
+    [SerializeField] Flowchart flowchart;
+    [SerializeField] string blockname ;
     void Update() {
         // Check if the player is pressing the pickup key
         if (Input.GetKeyDown(pickupKey)) {
@@ -73,6 +75,7 @@ public class PickupAndDrop : MonoBehaviour {
                 // For example: Destroy the item or play an animation
 
                 Destroy(currentItem); // Example action
+                flowchart.ExecuteBlock(blockname);
                 currentItem = null; // Clear the current item
             } else {
                 Debug.Log("No item to eat or item is not food.");

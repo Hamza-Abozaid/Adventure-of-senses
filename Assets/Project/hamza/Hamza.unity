@@ -2241,6 +2241,8 @@ MonoBehaviour:
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 64
+  flowchart: {fileID: 1057955182}
+  blockname: Eat_Burger
 --- !u!114 &353106213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2721,31 +2723,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.77
+      value: -10.20755
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9999981
+      value: 0.6057354
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.58
+      value: 6.6803274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.055683967
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.022098176
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.9982025
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0016609043
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2784,12 +2786,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 156502163}
-    - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1552506718}
-    - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1552506717}
   m_SourcePrefab: {fileID: 100100000, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
 --- !u!4 &460272957 stripped
 Transform:
@@ -6588,6 +6584,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fec1d5043c96394fbded0d84994995a, type: 3}
+--- !u!1 &1057955179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057955183}
+  - component: {fileID: 1057955182}
+  - component: {fileID: 1057955181}
+  - component: {fileID: 1057955180}
+  m_Layer: 0
+  m_Name: EatBurger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1057955180
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057955179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  storyText: "\u0641\uFEAE\uFE98\uFEA4\uFEE3 \u0645\uFE8E\uFECC\uFEC3 \uFEF2\uFEBF\uFE8E\uFED7
+    \uFEDA\uFEE7\uFE84\uFEDB\u0648 \u060C\u0632\uFE8E\uFE98\uFEE4\uFEE3 \uFEDE\uFEDC\uFEB8\uFE91
+    \u0642\u0648\uFEAC\uFE98\uFEDF\u0627 \uFE94\uFEB3\uFE8E\uFEA3 \uFE96\uFEE3\uFEAA\uFEA8\uFE98\uFEB3\u0627
+    !\uFEF2\uFED3\u0627\uFEAE\uFEA7 \uFEEA\uFEE4\uFECC\uFEC3 \uFEB6\uFE98\uFEF3\u0648\uFEAA\uFEE7\uFE8E\uFEB4\uFEDF\u0627"
+  description: 
+  character: {fileID: 534211264}
+  portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1057955181
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057955179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 371.00003
+    y: 98.79999
+    width: 110.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: Eat_Burger
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1057955180}
+  suppressAllAutoSelections: 0
+--- !u!114 &1057955182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057955179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  scrollPos: {x: 0, y: 0}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 400
+  zoom: 1
+  scrollViewRect:
+    serializedVersion: 2
+    x: -343
+    y: -340
+    width: 1114
+    height: 859
+  selectedBlocks:
+  - {fileID: 1057955181}
+  selectedCommands: []
+  variables: []
+  description: 
+  stepPause: 0
+  colorCommands: 1
+  hideComponents: 1
+  saveSelection: 1
+  localizationId: 
+  showLineNumbers: 0
+  hideCommands: []
+  luaEnvironment: {fileID: 0}
+  luaBindingName: flowchart
+--- !u!4 &1057955183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057955179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1061212265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4133749718763332898, guid: 7bb52cc09c8c76e43a75786dccaf3fa4, type: 3}
@@ -7912,8 +8037,7 @@ GameObject:
   - component: {fileID: 1251672732}
   - component: {fileID: 1251672731}
   - component: {fileID: 1251672730}
-  - component: {fileID: 1251672729}
-  - component: {fileID: 1251672728}
+  - component: {fileID: 1251672733}
   m_Layer: 0
   m_Name: animation-fridge-code
   m_TagString: Untagged
@@ -7936,32 +8060,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 945630992}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1251672728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251672726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49053b03cf0bc14585e12ed3e1ffb4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 780452311}
---- !u!114 &1251672729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251672726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49053b03cf0bc14585e12ed3e1ffb4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnimationController: {fileID: 1409883652}
 --- !u!65 &1251672730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8033,6 +8131,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251672726}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1251672733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251672726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40b95fc76819a3478076a8745811ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1409883652}
 --- !u!1 &1255057176 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 26d65351b95370343b747b6c002b39c1, type: 3}
@@ -8088,7 +8199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1410420178}
+  selectedFlowchart: {fileID: 1057955182}
 --- !u!4 &1274756396
 Transform:
   m_ObjectHideFlags: 1
@@ -8811,7 +8922,7 @@ MonoBehaviour:
     \u060C\uFEE2\uFEA4\uFEE0\uFEDF\u0627 \u060C  \uFECA\uFEE4\uFE9F"
   description: 
   character: {fileID: 534211264}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8837,7 +8948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.8
     y: 73.2
-    width: 90.8
+    width: 90.85106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8861,19 +8972,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 27.899994, y: 37.300003}
+  scrollPos: {x: 47.61283, y: 48.06595}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1410420177}
+  selectedCommands:
+  - {fileID: 1410420176}
   variables: []
   description: 
   stepPause: 0
@@ -8894,7 +9007,7 @@ Transform:
   m_GameObject: {fileID: 1410420175}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -9.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9660,59 +9773,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1552506713 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 8ca9f075134c0464490c91b3b036d72f, type: 3}
-  m_PrefabInstance: {fileID: 446298531}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1552506717
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552506713}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.95, y: 0.8572, z: 0.95}
-  m_Center: {x: 0, y: 0.4286, z: 0}
---- !u!54 &1552506718
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552506713}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1553154773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 7702f98c787632841928b9061a9088dd, type: 3}
@@ -13333,3 +13393,4 @@ SceneRoots:
   - {fileID: 1579873808}
   - {fileID: 630248936}
   - {fileID: 1410420179}
+  - {fileID: 1057955183}
