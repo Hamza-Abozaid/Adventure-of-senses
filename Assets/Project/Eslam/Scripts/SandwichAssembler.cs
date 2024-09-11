@@ -70,7 +70,7 @@ public class SandwichAssembler : MonoBehaviour
     void Update()
     {
         // التحقق من الاسكور باستخدام Score من PointManager
-        if (pointManager.Score ==0 && isPlayerInZone && Input.GetKeyDown(KeyCode.X))
+        if (pointManager.Score ==5 && isPlayerInZone && Input.GetKeyDown(KeyCode.X))
         {
             Destroy(Botton_bread.gameObject);
             Destroy(top_bread.gameObject);
@@ -81,7 +81,7 @@ public class SandwichAssembler : MonoBehaviour
             Instantiate(Sandwicburger, trans.position, Quaternion.identity);
             flowchart.ExecuteBlock(blockname);
 
-            Debug.Log("الحمدلله");
+
             
 
             // يمكنك إضافة أكشن معين عند تحقق الشرط
