@@ -18,11 +18,11 @@ public class FaucetTrigger : MonoBehaviour
         {
             water.SetActive(true);
 
-            // Only show the Say dialogue once when faucet is turned on for the first time
+            // Only show the Say dialogue once
             if (!hasShownMessage)
             {
-                flowchart.ExecuteBlock("New Block"); // Execute block when water is on for the first time
-                hasShownMessage = true; // Prevent further executions
+                flowchart.ExecuteBlock("New Block"); // Execute block when water is on
+                hasShownMessage = true; // Update to prevent further executions
             }
         }
     }
@@ -32,7 +32,7 @@ public class FaucetTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             water.SetActive(false);
-            // No flowchart execution on faucet turning off
+            flowchart.ExecuteBlock("New Block"); // Execute block when water is off
         }
     }
 }

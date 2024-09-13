@@ -287,7 +287,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3880388364023734505, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.007
+      value: -16.893
       objectReference: {fileID: 0}
     - target: {fileID: 3880388364023734505, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -295,7 +295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3880388364023734505, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.959
+      value: -17.753
       objectReference: {fileID: 0}
     - target: {fileID: 3880388364023734505, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1457,7 +1457,7 @@ Transform:
   m_GameObject: {fileID: 204318483}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.224021, y: -30.985994, z: -13.16}
+  m_LocalPosition: {x: 1.224021, y: -30.985994, z: -13.505568}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 12, y: 58.699997}
+  scrollPos: {x: 11.600006, y: 58.699997}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1832,7 +1832,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 261522976}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 261522979}
   variables: []
   description: 
   stepPause: 0
@@ -3015,7 +3016,7 @@ MonoBehaviour:
   itemId: 4
   indentLevel: 0
   musicClip: {fileID: 8300000, guid: 902e8e473398132408957ccfec3fe6e4, type: 3}
-  atTime: 1
+  atTime: 3
   loop: 1
   fadeDuration: 1
 --- !u!1 &398461731
@@ -3827,7 +3828,7 @@ MonoBehaviour:
     \uFEB2\uFEF3\uFEEE\uFEDB \uFEDE\uFEDC\uFEB8\uFE91 \u0631\uFE8E\uFEC0\uFEA8\uFEDF\u0627
     \uFE96\uFEE0\uFEB4\uFECF \uFEAA\uFED8\uFEDF"
   description: 
-  character: {fileID: 1086858230}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3894,8 +3895,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 486652691}
-  selectedCommands:
-  - {fileID: 486652688}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6126,11 +6126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-<<<<<<< HEAD
-  scrollPos: {x: -34.200012, y: 0.69999695}
-=======
   scrollPos: {x: 15, y: -39}
->>>>>>> 90cf94a3ecc8f849f4e2b65109d234b9773c8b46
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -10859,7 +10855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 148.59999, y: 116.7}
+  scrollPos: {x: 148.2, y: 116.7}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -17441,8 +17437,6 @@ GameObject:
   - component: {fileID: 1912648323}
   - component: {fileID: 1912648322}
   - component: {fileID: 1912648320}
-  - component: {fileID: 1912648325}
-  - component: {fileID: 1912648324}
   m_Layer: 0
   m_Name: start of game
   m_TagString: Untagged
@@ -17463,11 +17457,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 149.3936, y: 237.698}
+  scrollPos: {x: 149.56084, y: 261.4585}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406.40002
-  zoom: 1
+  zoom: 0.91949975
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -17476,8 +17470,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1912648313}
-  selectedCommands:
-  - {fileID: 1912648316}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -17526,11 +17519,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67.82509
     y: -50.998005
-<<<<<<< HEAD
-    width: 112.4
-=======
     width: 108.727585
->>>>>>> 90cf94a3ecc8f849f4e2b65109d234b9773c8b46
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17546,8 +17535,6 @@ MonoBehaviour:
   - {fileID: 1912648317}
   - {fileID: 1912648316}
   - {fileID: 1912648321}
-  - {fileID: 1912648325}
-  - {fileID: 1912648324}
   - {fileID: 1912648319}
   - {fileID: 1912648315}
   - {fileID: 1912648314}
@@ -17782,61 +17769,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1912648324
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912648310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  storyText: " \uFEEA\uFEF3\uFEAA\uFEEB \uFEC2\uFED8\uFEE7 \uFEB2\uFEE4\uFEA7 \uFEAA\uFEA7\n"
-  description: 
-  character: {fileID: 857121824}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1912648325
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912648310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 2033936434}
-  targetComponentAssemblyName: scores, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: scores
-  targetMethod: AddScore
-  targetMethodText: 'AddScore (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!1001 &1923279691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18182,11 +18114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  selectedFlowchart: {fileID: 1912648311}
-=======
   selectedFlowchart: {fileID: 911111019}
->>>>>>> 90cf94a3ecc8f849f4e2b65109d234b9773c8b46
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
