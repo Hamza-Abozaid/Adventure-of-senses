@@ -3064,7 +3064,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
+  m_PlaybackSpeed: 10
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -4022,8 +4022,8 @@ MonoBehaviour:
   pickupKey: 101
   eatKey: 102
   itemHeightOffset: 0.6
-  flowchart: {fileID: 0}
-  blockname: 
+  flowchart: {fileID: 1497476481}
+  blockname: Eat_Burger
 --- !u!1001 &535845282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17909,7 +17909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 911111019}
+  selectedFlowchart: {fileID: 1497476481}
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
