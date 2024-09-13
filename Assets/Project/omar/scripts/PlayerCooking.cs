@@ -11,7 +11,7 @@ public class PlayerCooking : MonoBehaviour {
     private void OnCollisionEnter(UnityEngine.Collision collision) {
          if (collision.gameObject.name == "Burger") {
             myAnimatorController.SetBool("Test", true);
-        //    PointManager.UpdateScore(1);
+              PointManager.UpdateScore(1);
             flowchart.ExecuteBlock(blockname);
         }
     }
