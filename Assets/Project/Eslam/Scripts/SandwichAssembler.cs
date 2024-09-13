@@ -80,8 +80,8 @@ public class SandwichAssembler : MonoBehaviour
             Destroy(onion.gameObject);
             Instantiate(Sandwicburger, trans.position, Quaternion.identity);
             flowchart.ExecuteBlock(blockname);
-
-
+            pointManager.UpdateScore(-5);
+            Destroy(gameObject);
             
 
             // يمكنك إضافة أكشن معين عند تحقق الشرط
