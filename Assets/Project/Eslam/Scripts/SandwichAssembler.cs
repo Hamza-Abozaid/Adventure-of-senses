@@ -1,96 +1,53 @@
-﻿using Fungus;
-using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
 
-public class SandwichAssembler : MonoBehaviour
-{
-  int Score = 0;
-  
-    [SerializeField] GameObject Botton_bread;
-    [SerializeField] GameObject top_bread;
-   [SerializeField] GameObject tomato;
-    [SerializeField] GameObject chease;
-    [SerializeField] GameObject lectt;
-   [SerializeField] GameObject onion;
-   [SerializeField] GameObject Sandwicburger;
-    [SerializeField] Transform trans;
-    [SerializeField] Flowchart flowchart;
-    [SerializeField] string blockname;
-    // [SerializeField] Transform botton;
-    // [SerializeField] Transform toma;
-    // [SerializeField] Transform chee;
-    // [SerializeField] Transform lec;
-    // [SerializeField] Transform onio;
+public class SandwichAssembler : MonoBehaviour {
+    // Serialized ingredient GameObjects
+    [SerializeField] GameObject bottonBread;
+    [SerializeField] GameObject topBread;
+    [SerializeField] GameObject tomato;
+    [SerializeField] GameObject cheese;
+    [SerializeField] GameObject lettuce;
+    [SerializeField] GameObject onion;
 
+    // Serialized hidden sandwich and position for assembly
+    [SerializeField] GameObject hiddenSandwich;
 
+    // Position where the sandwich will be placed
+    [SerializeField] Transform assemblyPoint;
 
-    /* Instantiate(botton_bread,botton.position, Quaternion.identity);
-     Instantiate(topdread, top_dread.position, Quaternion.identity);
-     Instantiate(tomato, toma.position, Quaternion.identity);
-     Instantiate(chease, chee.position, Quaternion.identity);
-     Instantiate(lectt, lec.position, Quaternion.identity);
-     Instantiate( onion, onio.position, Quaternion.identity);*/
-    //          }
-    //   }
-
-    // متغير لتخزين الاسكور
-
-
-
-    // مرجع لـ PointManager
+    // PointManager reference
     public PointManager pointManager;
 
-    // كائن اللاعب
-    public GameObject player;
-
-    // منطقة التحقق (مثلاً منطقة المطبخ)
-    private bool isPlayerInZone = false;
-
-    void OnTriggerEnter(Collider other)
-    {
-        // تحقق مما إذا كان اللاعب دخل المنطقة
-        if (other.gameObject == player)
-        {
-            isPlayerInZone = true;
-            Debug.Log("Player entered the zone");
-        }
+    // Check if all ingredients are present
+    bool AreIngredientsPresent() {
+        return bottonBread != null && topBread != null && tomato != null &&
+               cheese != null && lettuce != null && onion != null;
     }
 
-    void OnTriggerExit(Collider other)
-    {
-        // تحقق مما إذا كان اللاعب غادر المنطقة
-        if (other.gameObject == player)
-        {
-            isPlayerInZone = false;
-            Debug.Log("Player exited the zone");
+    void Update() {
+        // Check if the player has enough points and presses the X key
+        if (pointManager.Score >= 5 && Input.GetKeyDown(KeyCode.X)) {
+            // Check if all the ingredients are present
+            if (AreIngredientsPresent()) {
+                // Move the hidden sandwich to the position of this game object
+                hiddenSandwich.transform.position = assemblyPoint.position;
+                hiddenSandwich.SetActive(true); // Make the sandwich visible
+
+                // Optionally, you can add any other logic needed here (e.g., updating points)
+                pointManager.UpdateScore(-5);
+
+                // Optionally, disable or destroy ingredients after assembly
+                bottonBread.SetActive(false);
+                topBread.SetActive(false);
+                tomato.SetActive(false);
+                cheese.SetActive(false);
+                lettuce.SetActive(false);
+                onion.SetActive(false);
+
+                Debug.Log("Sandwich assembled successfully!");
+            } else {
+                Debug.Log("Ingredients are missing!");
+            }
         }
     }
-
-    void Update()
-    {
-        // التحقق من الاسكور باستخدام Score من PointManager
-        if (pointManager.Score ==5 && isPlayerInZone && Input.GetKeyDown(KeyCode.X))
-        {
-            Destroy(Botton_bread.gameObject);
-            Destroy(top_bread.gameObject);
-            Destroy(tomato.gameObject);
-            Destroy(chease.gameObject);
-            Destroy(lectt.gameObject);
-            Destroy(onion.gameObject);
-            Instantiate(Sandwicburger, trans.position, Quaternion.identity);
-            flowchart.ExecuteBlock(blockname);
-
-
-            
-
-            // يمكنك إضافة أكشن معين عند تحقق الشرط
-        }
-    }
-
-} 
-    
-   
-
-
-
+}
