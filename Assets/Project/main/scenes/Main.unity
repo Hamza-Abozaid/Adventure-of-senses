@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 152439607}
   - component: {fileID: 152439606}
   - component: {fileID: 152439609}
+  - component: {fileID: 152439610}
   m_Layer: 0
   m_Name: Collect
   m_TagString: Untagged
@@ -828,7 +829,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 152439607}
   selectedCommands:
-  - {fileID: 152439606}
+  - {fileID: 152439610}
   variables: []
   description: 
   stepPause: 0
@@ -898,6 +899,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 152439609}
   - {fileID: 152439606}
+  - {fileID: 152439610}
   suppressAllAutoSelections: 0
 --- !u!4 &152439608
 Transform:
@@ -930,6 +932,37 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " \u0627\uFEAA\uFE92\uFEE7 \uFE8E\uFEE8\uFEF4\uFE91 \uFEF2\uFEEB \uFEA6\uFE92\uFEC4\uFEE4\uFEDF\u0627
     \uFEF2\uFED3 \uFE96\uFEE7\u0627 \u0646\uFEFB\u0627"
+  description: 
+  character: {fileID: 857121824}
+  portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &152439610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152439604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: " \uFEEA\uFE9F\uFEFC\uFE98\uFEDF\u0627 \u0641 \uFEF2\uFEDF\u0627 \u062A\u0627\u0648\uFEAE\uFEC0\uFEA8\uFEDF\u0627
+    \u0639\u0627\uFEEE\uFEE7\u0627 \uFEE6\uFEF4\uFE91 \u0642\uFEAE\uFED4\uFE97 \u0643\uFEAA\uFECB\uFE8E\uFEB4\uFE98\uFEEB
+    \uFEF2\uFEDF\u0627 \uFEF2\uFEEB \uFEAE\uFEC8\uFEE8\uFEDF\u0627 \uFEEA\uFEB3\uFE8E\uFEA3
+    \uFEAE\uFEC8\uFEE8\uFEDF\u0627 \uFEEA\uFEB3\uFE8E\uFEA3 \u0645\u0627\uFEAA\uFEA8\uFE98\uFEB3\uFE8E\uFE91
+    \u0631\uFE8E\uFEC0\uFEA8\uFEDF\u0627 \uFECA\uFEE4\uFE9F"
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
@@ -2791,8 +2824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: " \uFE96\uFEA8\uFE92\uFEC3\u0627 \uFE8E\uFEEC\uFEE0\uFEDC\uFEB7 \uFEEA\uFEB4\uFEF3\uFEEE\uFEDB
-    \uFEEA\uFEE4\uFEA0\uFEE0\uFEDF\u0627 \uFEEA\uFEA4\uFEF3\u0631"
+  storyText: " \uFE96\uFEA8\uFE92\uFEC3\u0627 \uFE8E\uFEEC\uFEE0\uFEDC\uFEB7 \uFEEA\uFEB4\uFEF3\uFEEE\uFEDB 
+    \uFEEA\uFEE4\uFEA4\uFEE0\uFEDF\u0627 \uFEEA\uFEA4\uFEF3\u0631"
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: 2bd75b2b17d987940831e34e4181b862, type: 3}
@@ -2864,7 +2897,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 397336668}
   selectedCommands:
-  - {fileID: 397336666}
+  - {fileID: 397336667}
   variables: []
   description: 
   stepPause: 0
@@ -2960,7 +2993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "\uFEDA\uFE98\uFECB\uFE8E\uFE98\uFE91 \uFEB2\uFEE4\uFEE0\uFEDF\u0627
+  storyText: "\uFEDA\uFE98\uFECB\uFE8E\uFE98\uFE91  \uFECA\uFEE4\uFEB4\uFEDF\u0627
     \uFEEA\uFEB3\uFE8E\uFEA3 \uFE90\uFE92\uFEB4\uFE91 \uFEEA\uFECC\uFEE4\uFEB4\uFE97
     \u062A\u0631\uFEAA\uFED7 \uFE96\uFEE7\u0627 \uFEF2\uFEDF\u0627 \uFEEA\uFEE4\uFEA4\uFEE0\uFEDF\u0627
     \uFEA6\uFE92\uFEC3 \u062A\uFEEE\uFEBB \u0627\u062F"
@@ -3870,7 +3903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 109.01636
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3897,11 +3930,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 350.6103, y: 281.2943}
+  scrollPos: {x: 180.29181, y: 116.7}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6100004
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -10676,7 +10709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 148.2, y: 116.7}
+  scrollPos: {x: 178.59999, y: 116.7}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -10689,8 +10722,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1586595260}
-  selectedCommands:
-  - {fileID: 1586595255}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -17222,7 +17254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 149.3936, y: 237.698}
+  scrollPos: {x: 177.7749, y: 237.698}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406.40002
@@ -17236,7 +17268,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1912648313}
   selectedCommands:
-  - {fileID: 1912648316}
+  - {fileID: 1912648321}
   variables: []
   description: 
   stepPause: 0
@@ -17909,7 +17941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1497476481}
+  selectedFlowchart: {fileID: 397336669}
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
