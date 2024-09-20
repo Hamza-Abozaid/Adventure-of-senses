@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/main/Ui scenes/adventure page.unity
     guid: 88f654320a16bc44ca7ec9fd813adc63
-  - enabled: 1
+  - enabled: 0
     path: Assets/Project/main/Ui scenes/LevelsPage.unity
     guid: f9d7b07de7789934b95dc1a05b018657
   - enabled: 1
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Project/khadija/khadija.unity
     guid: 424c75d416c6f51428ee23733074b29e
+  - enabled: 1
+    path: Assets/Project/main/Ui scenes/LEVEL2.unity
+    guid: 6f0526cf53f652a42940ede1e1b973a7
   m_configObjects: {}

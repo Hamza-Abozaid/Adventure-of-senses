@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class start : MonoBehaviour
+public class EXIT : MonoBehaviour
 {
+
+
+
     // Start is called before the first frame update
     public void StartGame()
 
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("adventure page");
 
     }
 
     // Update is called once per frame
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
+
 }
