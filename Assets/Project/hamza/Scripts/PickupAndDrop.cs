@@ -12,7 +12,9 @@ public class PickupAndDrop : MonoBehaviour {
     public float itemHeightOffset = 1.0f; // How much to raise the item when picked up
     private GameObject currentItem = null; // The currently held item
     public Flowchart flowchart;
+    public Flowchart waterOn;
     public string blockname;
+    private List<int> collectedVegetables = new List<int>();
 
     void Update() {
         // Debug raycast visualization to help track where it's aiming
@@ -47,6 +49,8 @@ public class PickupAndDrop : MonoBehaviour {
                 currentItem.GetComponent<Rigidbody>().isKinematic = true; // Disable physics
                 currentItem.transform.SetParent(player); // Attach the item to the player
                 currentItem.transform.localPosition = new Vector3(0, itemHeightOffset, 1); // Adjust Y position to raise the item
+                CollectVegetable(currentItem.layer);
+
             }
         } else {
             Debug.Log("Raycast did not hit anything.");
@@ -76,5 +80,40 @@ public class PickupAndDrop : MonoBehaviour {
                 Debug.Log("No item to eat or item is not food.");
             }
         }
+    }
+    
+
+    // Method to collect a vegetable
+    public void CollectVegetable(int vegetable)
+    {
+        // Check if the vegetable is already in the list
+        if (!collectedVegetables.Contains(vegetable))
+        {
+            // Add vegetable to the list if it's not already there
+            collectedVegetables.Add(vegetable);
+           
+            // Check if four unique vegetables have been collected
+            if (CheckVegetablesCollected())
+            {
+                waterOn.ExecuteBlock("New Block");
+            }
+        }
+       
+    }
+
+    // Method to check if 4 unique vegetables are collected
+    private bool CheckVegetablesCollected()
+    {
+        return collectedVegetables.Count == 4;
+    }
+
+    // Example of converting the list to an array if needed
+    public int[] GetCollectedVegetablesArray()
+    {
+        return collectedVegetables.ToArray();
+    }
+    public void ResetCollectedVegetables()
+    {
+        collectedVegetables.Clear();
     }
 }
