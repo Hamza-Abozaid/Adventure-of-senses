@@ -435,7 +435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -872,7 +872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -105.39998, y: 136.7}
+  scrollPos: {x: -65.39998, y: 136.7}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3103,8 +3103,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 397336668}
-  selectedCommands:
-  - {fileID: 397336672}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -11781,10 +11780,10 @@ GameObject:
   - component: {fileID: 1586595257}
   - component: {fileID: 1586595256}
   - component: {fileID: 1586595255}
+  - component: {fileID: 1586595263}
   - component: {fileID: 1586595265}
   - component: {fileID: 1586595264}
   - component: {fileID: 1586595266}
-  - component: {fileID: 1586595267}
   m_Layer: 0
   m_Name: 'end of cheack veg and start of washing '
   m_TagString: Untagged
@@ -11960,12 +11959,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1586595267}
   - {fileID: 1586595265}
   - {fileID: 1586595266}
   - {fileID: 1586595264}
   - {fileID: 1586595259}
   - {fileID: 1586595256}
+  - {fileID: 1586595263}
   - {fileID: 1586595258}
   - {fileID: 1586595257}
   - {fileID: 1586595255}
@@ -11983,7 +11982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 172.59999, y: 139.9}
+  scrollPos: {x: 128.6, y: 139.9}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -11996,7 +11995,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1586595260}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1586595266}
   variables: []
   description: 
   stepPause: 0
@@ -12023,6 +12023,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1339600759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1586595263
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586595254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 156433356}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1586595264
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12067,7 +12123,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1586595266
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12083,27 +12139,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 5
   durationOLD: 0
---- !u!114 &1586595267
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586595254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 156433356}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!4 &1599458525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6978010679440199031, guid: 38a6a1df4a5ef5f4b8107ff806b527c0, type: 3}
@@ -19067,7 +19102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 127.77492, y: 260.898}
+  scrollPos: {x: 254.17493, y: 260.898}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406.40002
@@ -19078,8 +19113,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1912648313}
+  selectedCommands:
+  - {fileID: 1912648328}
   variables: []
   description: 
   stepPause: 0
@@ -19216,7 +19253,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: bc0391d0971ef524c88a05eac223bf08, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -19239,13 +19276,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u064A\u0648\u0623 \u0646\uFE8E\uFECC\uFE9F \uFEF2\uFE98\uFED7\uFEEE\uFEDF\u062F
-    \uFE8E\uFEE7\u0627\u0648 \u060C \uFEAE\uFE9F\uFEAE\uFE91 \uFEB6\uFE98\uFEF3\u0648\uFEAA\uFEE7\uFE8E\uFEB4\uFE91
-    \uFE96\uFEE4\uFEE0\uFEA3 !\u0647\u0627\u0627\uFE8E\uFEF3"
+  storyText: " \uFEEA\uFED4\uFEA4\uFE97 \u0646\uFE8E\uFEDB \uFEEA\uFEE0\uFEDC\uFEB7
+    \uFEAE\uFE9F\uFEAE\uFE91 \uFEB6\uFE97\u0648\uFEAA\uFEE7\uFE8E\uFEB4\uFE91 \uFE96\uFEE4\uFEE0\uFEA3
+    !\u0647\u0627\u0627\u0627\uFE8E\uFEF3"
   description: 
   character: {fileID: 1086858230}
   portrait: {fileID: 21300000, guid: d687b3527c06dd94fa9e0f3a30386cc1, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: 54a17fc2f4effd24681170b84601c7f9, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -19332,7 +19369,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: 568a8473e26f2f246b2f33b47f5e90e4, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -19449,7 +19486,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: e1f62b7e73a0b6248a95db68ec15b18f, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -19481,7 +19518,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1912648328
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19842,7 +19879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1586595261}
+  selectedFlowchart: {fileID: 397336669}
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
