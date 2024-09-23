@@ -4,8 +4,8 @@ using Fungus; // Import the Fungus namespace
 public class FaucetTrigger : MonoBehaviour
 {
     public GameObject water;
-    public Flowchart flowchart; // Reference to your Flowchart
-    private bool hasShownMessage = false; // To track if the message has been shown
+    public Flowchart flowchart;
+    private bool hasShownMessage = false; 
 
     void Start()
     {
@@ -18,11 +18,11 @@ public class FaucetTrigger : MonoBehaviour
         {
             water.SetActive(true);
 
-            // Only show the Say dialogue once
+          
             if (!hasShownMessage)
             {
-                flowchart.ExecuteBlock("New Block"); // Execute block when water is on
-                hasShownMessage = true; // Update to prevent further executions
+                flowchart.ExecuteBlock("New Block"); 
+                hasShownMessage = true; 
             }
         }
     }
