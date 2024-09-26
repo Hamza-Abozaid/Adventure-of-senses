@@ -104,7 +104,7 @@ public class PickupAndDrop : MonoBehaviour {
     // Method to check if 4 unique vegetables are collected
     private bool CheckVegetablesCollected()
     {
-        return collectedVegetables.Count == 4;
+        return collectedVegetables.Count == 5;
     }
 
     // Example of converting the list to an array if needed
