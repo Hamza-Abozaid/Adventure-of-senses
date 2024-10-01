@@ -15,11 +15,13 @@ public class PickupAndDrop : MonoBehaviour {
     public Flowchart waterOn;
     public string blockname;
     private List<int> collectedVegetables = new List<int>();
+    public GameObject EPick;
+    public GameObject EOpen;
 
     void Update() {
         // Debug raycast visualization to help track where it's aiming
-        Debug.DrawRay(playerCamera.transform.position, playerCamera.transform.forward * pickupRange, Color.red, 1.0f);
-
+        // Debug.DrawRay(playerCamera.transform.position, playerCamera.transform.forward * pickupRange, Color.red, 1.0f);
+        CheckForItem();
         // Check if the player is pressing the pickup key
         if (Input.GetKeyDown(pickupKey)) {
             if (currentItem != null) {
@@ -32,6 +34,47 @@ public class PickupAndDrop : MonoBehaviour {
         // Check if the player is pressing the eat key
         if (Input.GetKeyDown(eatKey)) {
             EatItem();
+        }
+    }
+    void CheckForItem()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, pickupRange))
+        {
+            if (hit.collider != null)
+            {
+                // Show the "Press E" panel if looking at a pickup item
+                if (hit.collider.CompareTag("PickupItem"))
+                {
+                    EPick.SetActive(true);
+                }
+                else
+                {
+                    EPick.SetActive(false);
+                }
+
+                // Show the "Press E" panel if looking at an openable item
+                if (hit.collider.CompareTag("OpenItem"))
+                {
+                    EOpen.SetActive(true);
+                }
+                else
+                {
+                    EOpen.SetActive(false);
+                }
+            }
+            else
+            {
+                // Hide both panels if raycast doesn't hit anything relevant
+                EPick.SetActive(false);
+                EOpen.SetActive(false);
+            }
+        }
+        else
+        {
+            // Hide both panels if raycast doesn't hit anything
+            EPick.SetActive(false);
+            EOpen.SetActive(false);
         }
     }
 

@@ -9,6 +9,7 @@ TagManager:
   - PickupItem
   - SleepingPlayer
   - FoodItem
+  - OpenItem
   layers:
   - Default
   - TransparentFX
