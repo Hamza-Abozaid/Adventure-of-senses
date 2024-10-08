@@ -4243,7 +4243,6 @@ GameObject:
   - component: {fileID: 397336679}
   - component: {fileID: 397336678}
   - component: {fileID: 397336677}
-  - component: {fileID: 397336676}
   - component: {fileID: 397336675}
   m_Layer: 0
   m_Name: end of cooking and start of s
@@ -4276,7 +4275,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b1aa0e2de6cdd364282f233a85c63358, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4304,7 +4303,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9da7223ce5221df4781a586ef42c5ba2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4329,7 +4328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.6
     y: 136.4
-    width: 87.6
+    width: 86.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4343,7 +4342,6 @@ MonoBehaviour:
   - {fileID: 397336673}
   - {fileID: 397336667}
   - {fileID: 397336675}
-  - {fileID: 397336676}
   - {fileID: 397336679}
   - {fileID: 397336677}
   - {fileID: 397336678}
@@ -4363,7 +4361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 51.799988, y: 25.5}
+  scrollPos: {x: -16.600006, y: 50.300003}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4377,7 +4375,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 397336668}
   selectedCommands:
-  - {fileID: 397336674}
+  - {fileID: 397336679}
   variables: []
   description: 
   stepPause: 0
@@ -4450,7 +4448,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4b7a4935b44603148b57c8a6d03b2113, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4480,7 +4478,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4450a4dbc1dd64549a4b9e15839ded59, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4527,35 +4525,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &397336676
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397336665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  storyText: " \uFE96\uFEA8\uFE92\uFEC3\u0627 \uFE8E\uFEEC\uFEE0\uFEDC\uFEB7 \uFEEA\uFEB4\uFEF3\uFEEE\uFEDB 
-    \uFEEA\uFEE4\uFEA4\uFEE0\uFEDF\u0627 \uFEEA\uFEA4\uFEF3\u0631"
-  description: 
-  character: {fileID: 857121824}
-  portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7a1eeb2a8be78224dbbb82b8601d0bab, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9045,7 +9015,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 744050342ba7a624197fbf5ad452be10, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9075,7 +9045,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 21300000, guid: c4eefbbfd51ea0a4eb102841fd1d325e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dc30190d76f8750459654a22ac5bec5d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9138,7 +9108,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 911111018}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 911111016}
   variables: []
   description: 
   stepPause: 0
@@ -20201,7 +20172,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1f32fdfb43995d9458a6e3a7eb337fac, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -20226,7 +20197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 371.00003
     y: 98.79999
-    width: 114
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20261,7 +20232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -154.48575, y: 87.90001}
+  scrollPos: {x: -79.00003, y: 87.90001}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -20275,7 +20246,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1497476480}
   selectedCommands:
-  - {fileID: 1497476485}
+  - {fileID: 1497476479}
   variables: []
   description: 
   stepPause: 0
@@ -20322,7 +20293,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 87e115bcc92bc744ca53362c19645474, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -20350,7 +20321,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7420fdd314bd9244ca845652b35d07ed, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -20380,7 +20351,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5bf947a0c5c12d34e8a2c832a040962c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -20408,7 +20379,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 6c891fc1b1e899141b4476e4d0e8a3e3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -20437,7 +20408,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 857121824}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 13e7ef9e62cadbe41a81105cef9ab312, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -30744,7 +30715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 261522974}
+  selectedFlowchart: {fileID: 1497476481}
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
