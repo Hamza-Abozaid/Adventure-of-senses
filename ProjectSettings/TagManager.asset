@@ -10,11 +10,14 @@ TagManager:
   - SleepingPlayer
   - FoodItem
   - OpenItem
+  - '"Stickable'
+  - Stickable
+  - Stuck
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - StickByLayer
   - Water
   - UI
   - Player
@@ -24,7 +27,7 @@ TagManager:
   - Cheese
   - Onion
   - Meat
-  - 
+  - stickableLayer
   - 
   - 
   - 
