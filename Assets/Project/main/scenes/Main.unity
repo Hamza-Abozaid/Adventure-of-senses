@@ -1882,7 +1882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   water: {fileID: 1900863181}
   flowchart: {fileID: 486652692}
-  blockName: New Block
+  sayBlockName: SayBlockName
+  actionBlockName: YourActionBlockName
 --- !u!65 &156433358
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2945,11 +2946,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.027
+      value: -17.034
       objectReference: {fileID: 0}
     - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.761
+      value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 8191519450068157843, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_LocalPosition.z
