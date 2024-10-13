@@ -8,9 +8,10 @@ public class PickupAndDrop : MonoBehaviour {
     public Camera playerCamera; // Reference to the player's camera
     public float pickupRange = 5f; // Temporarily increased range for testing
     public KeyCode pickupKey = KeyCode.E; // Key to press for picking up items
+   
     public KeyCode eatKey = KeyCode.F; // Key to press for eating the item
     public float itemHeightOffset = 1.0f; // How much to raise the item when picked up
-    private GameObject currentItem = null; // The currently held item
+    public GameObject currentItem = null; // The currently held item
     public Flowchart flowchart;
     public Flowchart waterOn;
     public string blockname;
@@ -82,10 +83,10 @@ public class PickupAndDrop : MonoBehaviour {
         RaycastHit hit;
         // Simpler raycast without layer mask for testing
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, pickupRange)) {
-            Debug.Log("Raycast hit: " + hit.collider.name);
+           // Debug.Log("Raycast hit: " + hit.collider.name);
 
             if (hit.collider != null && hit.collider.CompareTag("PickupItem")) {
-                Debug.Log("Picking up item: " + hit.collider.name);
+                //Debug.Log("Picking up item: " + hit.collider.name);
 
                 // Pickup logic
                 currentItem = hit.collider.gameObject;
@@ -95,9 +96,7 @@ public class PickupAndDrop : MonoBehaviour {
                 CollectVegetable(currentItem.layer);
 
             }
-        } else {
-            Debug.Log("Raycast did not hit anything.");
-        }
+        } 
     }
 
     void DropItem() {
@@ -106,7 +105,7 @@ public class PickupAndDrop : MonoBehaviour {
             currentItem.transform.SetParent(null);
             currentItem.GetComponent<Rigidbody>().isKinematic = false; // Enable physics
             currentItem = null; // Clear the current item
-            Debug.Log("Item dropped.");
+            //Debug.Log("Item dropped.");
         }
     }
 
@@ -114,14 +113,14 @@ public class PickupAndDrop : MonoBehaviour {
         if (currentItem != null) {
             ItemType itemType = currentItem.GetComponent<ItemType>();
             if (itemType != null && itemType.isFood) {
-                Debug.Log("Eating item: " + currentItem.name);
+               // Debug.Log("Eating item: " + currentItem.name);
 
                 Destroy(currentItem); // Destroy after eating
                 flowchart.ExecuteBlock(blockname);
                 currentItem = null;
-            } else {
+            }/* else {
                 Debug.Log("No item to eat or item is not food.");
-            }
+            }*/
         }
     }
     
