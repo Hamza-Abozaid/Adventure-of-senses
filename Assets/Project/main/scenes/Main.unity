@@ -630,7 +630,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -638,7 +638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c5c38fbda29995f4db08c68c3ee92ac6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3187,7 +3187,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 261522976}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 261522982}
   variables: []
   description: 
   stepPause: 0
@@ -3419,9 +3420,9 @@ MonoBehaviour:
   staticEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1881591896}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+        m_MethodName: set_isStatic
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24959,6 +24960,10 @@ PrefabInstance:
       value: pan_A
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7de3b665cbd79f1408e2d2c16df63b6f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7de3b665cbd79f1408e2d2c16df63b6f, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -31392,7 +31397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 152439605}
+  selectedFlowchart: {fileID: 261522974}
 --- !u!4 &1953467596
 Transform:
   m_ObjectHideFlags: 1
