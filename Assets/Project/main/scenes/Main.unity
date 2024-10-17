@@ -3438,7 +3438,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1881591896}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: set_isStatic
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4635,8 +4635,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 397336668}
-  selectedCommands:
-  - {fileID: 397336680}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5912,7 +5911,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 486652691}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 486652699}
   variables: []
   description: 
   stepPause: 0
