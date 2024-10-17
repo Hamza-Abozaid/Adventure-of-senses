@@ -2750,6 +2750,22 @@ PrefabInstance:
       propertyPath: pointManager
       value: 
       objectReference: {fileID: 156242878}
+    - target: {fileID: 4301223473951825136, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_Mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301223473951825136, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_Constraints
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301223473951825136, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301223473951825136, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5095859278129450301, guid: ab2e071d5c9075c458572d035b4f816d, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -37951,7 +37967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2263670852539841769, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.419
+      value: -17.524
       objectReference: {fileID: 0}
     - target: {fileID: 2263670852539841769, guid: 87fd3a4a3208df74786aea1c7f1543cd, type: 3}
       propertyPath: m_LocalPosition.y
