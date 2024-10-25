@@ -425,6 +425,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6848086794414629032, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848086794414629032, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7562124841458344786, guid: 75b3ddbcfe47e244aa61a70767d79b6d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -16481,6 +16489,7 @@ GameObject:
   - component: {fileID: 1157421718}
   - component: {fileID: 1157421717}
   - component: {fileID: 1157421716}
+  - component: {fileID: 1157421719}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -16575,6 +16584,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157421714}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1157421719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157421714}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000001, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0.00000011920929, y: 0.00000050198287, z: 0.00000011920929}
 --- !u!4 &1168482340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 940810288859781336, guid: 84ec177bc6599ae438ee9c03a98cad5c, type: 3}
